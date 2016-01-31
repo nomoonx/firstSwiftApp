@@ -9,9 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var mylabel=UILabel(frame:CGRect(origin: CGPointMake(10.0, 50.0), size: CGSizeMake(150,50)))
+        mylabel.text="hoho"
+        self.view.addSubview(mylabel)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

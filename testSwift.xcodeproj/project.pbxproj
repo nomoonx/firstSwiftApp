@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013700AF1C572C24008309C7 /* SudokuSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013700AE1C572C24008309C7 /* SudokuSolver.swift */; };
 		0171DD791C39B38A00759020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171DD781C39B38A00759020 /* AppDelegate.swift */; };
 		0171DD7B1C39B38A00759020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171DD7A1C39B38A00759020 /* ViewController.swift */; };
 		0171DD7E1C39B38A00759020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0171DD7C1C39B38A00759020 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013700AE1C572C24008309C7 /* SudokuSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudokuSolver.swift; sourceTree = "<group>"; };
 		0171DD751C39B38A00759020 /* testSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0171DD781C39B38A00759020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0171DD7A1C39B38A00759020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				0171DD7F1C39B38A00759020 /* Assets.xcassets */,
 				0171DD811C39B38A00759020 /* LaunchScreen.storyboard */,
 				0171DD841C39B38A00759020 /* Info.plist */,
+				013700AE1C572C24008309C7 /* SudokuSolver.swift */,
 			);
 			path = testSwift;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					0171DD741C39B38A00759020 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = M7X3A7856Y;
 					};
 					0171DD881C39B38A00759020 = {
 						CreatedOnToolsVersion = 7.2;
@@ -256,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013700AF1C572C24008309C7 /* SudokuSolver.swift in Sources */,
 				0171DD7B1C39B38A00759020 /* ViewController.swift in Sources */,
 				0171DD791C39B38A00759020 /* AppDelegate.swift in Sources */,
 			);
@@ -397,10 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nomoon.me.testSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nomoon.me.testSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +493,7 @@
 				0171DD9F1C39B38A00759020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0171DDA01C39B38A00759020 /* Build configuration list for PBXNativeTarget "testSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +502,7 @@
 				0171DDA21C39B38A00759020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0171DDA31C39B38A00759020 /* Build configuration list for PBXNativeTarget "testSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +511,7 @@
 				0171DDA51C39B38A00759020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
